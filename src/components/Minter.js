@@ -124,7 +124,7 @@ function Minter() {
     } catch (err) {
       setMintInfo((prevState) => ({
         ...prevState,
-        cost: "0",
+        cost: "22200000000000000",
       }));
     }
   };
@@ -143,7 +143,7 @@ function Minter() {
     try {
       setMintInfo((prevState) => ({
         ...prevState,
-        loading: true,
+        loading: false,
         status: `Minting ${mintInfo.amount}...`,
       }));
       const txHash = await window.ethereum.request({
@@ -167,7 +167,7 @@ function Minter() {
   };
 
   const updateAmount = (newAmount) => {
-    if (newAmount <= 5 && newAmount >= 1) {
+    if (newAmount <= 3 && newAmount >= 1) {
       setMintInfo((prevState) => ({
         ...prevState,
         amount: newAmount,
