@@ -16,9 +16,9 @@ const initialInfoState = {
 const initialMintState = {
   loading: true,
   status: `mint up to 3 ${contract.name}`,
-  amount: 1,
-  supply: "15",
-  cost: "22200000000000000",
+  amount: 3,
+  supply: "444",
+  cost: "22200000000000000000",
 };
 
 function Minter() {
@@ -100,7 +100,7 @@ function Minter() {
     } catch (err) {
       setMintInfo((prevState) => ({
         ...prevState,
-        supply: "0",
+        supply: 0,
       }));
     }
   };
