@@ -17,7 +17,7 @@ const initialMintState = {
   loading: true,
   status: `mint up to 3 ${contract.name}`,
   amount: 3,
-  supply: "444",
+  supply: "85",
   cost: "22200000000000000000",
 };
 
@@ -295,7 +295,7 @@ function Minter() {
           }}
           className="_90"
           target="_blank"
-          href="https://etherscan.io/token/0x451C06f7063D16E35B5Fbe01768946BCABffE499"
+          href="https://etherscan.io/address/0x451C06f7063D16E35B5Fbe01768946BCABffE499"
         >
           View Contract
         </a>
