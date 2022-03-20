@@ -16,7 +16,7 @@ const initialInfoState = {
 const initialMintState = {
   loading: true,
   status: `mint up to 3 ${contract.name}`,
-  amount: 3,
+  amount: 1,
   supply: "15",
   cost: "22200000000000000",
 };
