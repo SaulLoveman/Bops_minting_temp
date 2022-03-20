@@ -3,9 +3,9 @@
   "symbol": "BOP$",
   "total_supply": 666,
   "chain_symbol": "eth",
-  "chain": "rinkeby",
-  "chain_id": 4,
-  "address": "0x0b586204cF98000AaeCAb9363Cb6348bB8c2CEf8",
+  "chain": "ethereum",
+  "chain_id": 1,
+  "address": "0x451C06f7063D16E35B5Fbe01768946BCABffE499",
   "abi": [
   {
     "inputs": [
